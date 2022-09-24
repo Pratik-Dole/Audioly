@@ -1,0 +1,60 @@
+
+/* @import
+@import  */
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: wheat;
+  }
+  
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .logo img{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    padding: 0px 10px;
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
+  nav ul li{
+    padding: 0px 10px;;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover{
+    color: red;
+  }
+
+  footer{
+    min-height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: green;
+    height: 30px;
+  }
+  /* ......................................... xxxxx ......................................... */

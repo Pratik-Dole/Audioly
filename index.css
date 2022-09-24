@@ -1,58 +1,161 @@
-/* Body Designing Start */
 
-body {
-    background-image: url(/Images/BG\ Design.jpg);
-    background-repeat: no-repeat;
-    height: auto;
-    width: auto;
-    margin: 0;
-    padding: 0;
-  }
+/* @import
+@import  */
 
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
 
-/* Body Designing End */
+body{
+  background-color: wheat;
+}
 
-/* .Bimg{
-    height: 1000px;
-    width: 1000px;
+nav ul{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  align-items: center;
+  height: 50px;
+}
+
+.logo img{
+  display: flex;
+  align-items: center;
+  width: 40px;
+  padding: 0px 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+nav ul li{
+  padding: 0px 10px;;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul li a:hover{
+  color: red;
+}
+
+/* ul li .home:hover{
+  color: green;
+}
+
+.contact:hover{
+  color: red;
 } */
 
-.heading1 {
-    /* margin: 40px 50px; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    font-weight: 200;
-    background-color: black;
-    color: yellow;
-}
-.heading2 {
-    /* margin: 20px 20px; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    font-weight: 200;
-    background-color: black;
-    color: red;
+.box1{
+  min-height: 70vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 20px;
+  padding: 30px;
+  background-image: url(/Images/BG.jpg);
+  background-repeat: no-repeat;
 }
 
-.bton {
-    background-color: green;
-    color: white;
-    cursor: pointer;
-    margin: 13px 5px;
-    border: 2px solid green;
-    border-radius: 50px;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 5px 30px;
-    /* display: flex; */
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-  }
-  .bton:hover {
-    background-color: darkgreen;
-  }
+.songItem{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0px;
+  display: flex;
+  color: black;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.songItem img{
+  width: 45px;
+  margin: 0px 20px;
+  border-radius: 50px;
+}
+
+.timeStamp{
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+  margin: 0px 10px;
+}
+
+.timeStamp i{
+  padding: 0px 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.timeStamp i:hover{
+  color: greenyellow;
+}
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: grey;
+  position: sticky;
+  bottom: 0;
+  height: 75px;
+}
+
+#progressLine{
+  width: 90vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icons{
+  margin-top: 10px;
+}
+
+.icons i{
+  cursor: pointer;
+  padding: 0px 3px;
+}
+
+.icons i:hover{
+  color: red;
+}
+
+.playGif{
+  position: absolute;
+  left: 10vw;
+}
+
+.playGif img{
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+footer{
+  min-height: 4.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: green;
+  height: 30px;
+}
+
+/* ......................................... xxxxx ......................................... */
