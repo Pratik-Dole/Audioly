@@ -19,6 +19,9 @@ nav ul{
   background-color: black;
   align-items: center;
   height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .logo img{
@@ -110,7 +113,7 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: grey;
+  background-color: black;
   position: sticky;
   bottom: 0;
   height: 75px;
@@ -132,7 +135,7 @@ nav ul li a:hover{
 }
 
 .icons i:hover{
-  color: red;
+  color: black;
 }
 
 .playGif{
